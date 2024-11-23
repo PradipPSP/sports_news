@@ -59,7 +59,12 @@
         #n_anthem{
             background-color: skyblue;
         }
-        /* sports design starts here */
+        
+        /* ai news starts here */
+
+        #ai_news h2{
+            background-color: skyblue;
+        }
 
         #submit_news h2{
             background-color: skyblue;
@@ -92,8 +97,8 @@
 
                 <a href="#topnews"><i class="fa-solid fa-radio"></i> Top news</a> &nbsp
                 <a href="#golobal_news"> <i class="fa-solid fa-handshake-angle"></i> Global Diplomacy</a> &nbsp
-                <a href=""> <i class="fa-solid fa-microchip"></i> Tech Innovations</a>&nbsp
-                <a href=""><i class="fa-brands fa-space-awesome"></i> Sports & Space News</a>&nbsp
+                <a href="#ai_news"> <i class="fa-solid fa-microchip"></i> Tech Innovations</a>&nbsp
+                <a href="#sports_news"><i class="fa-brands fa-space-awesome"></i> Sports & Space News</a>&nbsp
                 <a href=""> <i class="fa-solid fa-video"></i> How To Post</a>
             </nav>
         </div>
@@ -222,7 +227,7 @@
 
         <section id="n_anthem">
 
-            <h2>National Anthem</h2>
+            <h2> <i class="fa-regular fa-flag"></i> National Anthem</h2>
 
                 <audio controls autoplay muted>
                     <source src="./media/National Anthem of Bangladesh in Sign Language-Amar Shonar Bangla.mp3">
@@ -230,10 +235,50 @@
                 
         </section><hr>
 
-        <section id="submit_news">
-            <h2> <i class="fa-solid fa-pen-nib"></i> Submit Your News</h2>
-            <form action="">
+        <!-- ai revolutionizes design starts here  -->
+
+
+        <section id="ai_news">
+
+            <h2><i class="fa-solid fa-wind"></i> Tech Innovations</h2>
+
+            <div>
                 
+                <img src="./image/ainews.jpg" width="300px" height="200px" alt="Sports Image">
+                <h4>
+                    <i class="fa-solid fa-handshake-angle"></i> Asia AI Data Center Summit 2025
+                </h4>
+                <p>
+                    <i class="fa-solid fa-calendar-days"> </i> <b> Will be Held On: 26-27 March, 2025.</b>
+                </p>
+
+                <details>
+                    <summary> Summit Background</summary>
+                    With AI workloads driving exponential increases in data processing and storage needs, traditional data centers face significant pressure to scale up, enhance efficiency, and integrate advanced technologies. This summit will delve into the latest innovations in data center design, construction, cooling, energy management, and digital infrastructure tailored for AI applications. Participants will gain insights into how cutting-edge solutions, such as liquid cooling, modular construction, edge computing, and sustainable energy options, can be leveraged to optimize data centers for AI-driven workloads.
+
+                    Asia AI Data Center Summit 2025 serves as a platform for networking, knowledge exchange, and collaboration, addressing pressing issues such as sustainability, resilience, and scalability. Attendees will have the opportunity to learn from industry experts, engage in interactive sessions, and explore pioneering strategies that enable data centers to meet the rising demands of AI technologies. 
+                </details>
+            </div> 
+        </section>
+
+        <!-- submit your news design starts here -->
+
+        <section id="submit_news">
+
+            <h2> <i class="fa-solid fa-pen-nib"></i> Submit Your News</h2>
+
+            <form action="" style="border: 1px solid; padding: 3px;">
+
+                <label for="name"> Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name"><br><br>
+
+                <label for="email"> Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter Your Mail"><br><br>
+
+                <label for="feadback"> Feadback:</label><br>
+                <textarea name="feadback" id="feadback" cols="20" rows="5">Enter Your Feadback</textarea><br><br>
+
+                <button value="Submit"><i class="fa-regular fa-paper-plane"></i> Submit</button>
             </form>
         </section>
     </main>
