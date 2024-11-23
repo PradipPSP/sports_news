@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
+
+        /* header design starts here */
+
         #newspaper_name{
             background-color: darkolivegreen;
             color: white;
@@ -19,7 +22,18 @@
         }
 
         #scrolling_news{
-            background-color: darkgray;
+            background-color: darkolivegreen;
+            color: white;
+        }
+
+        #navbar{
+            background-color: darkolivegreen;
+            text-align: center;
+            
+        }
+        #nav_style a{
+            color: white;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -33,11 +47,64 @@
             <p>Voice of Satkhira</p>
         </div>
 
+        <!-- scrolling design starts here  -->
+
         <div id="scrolling_news">
             <marquee behavior="s" direction="">
-                <h3> Top News: *Today our Satkhira Post Office has set a new paradigm in customer service. </h3>
+                 News: *Today our Satkhira Post Office has set a new paradigm in customer service. * It is very cold in our Satkhira today.
             </marquee>
+        </div><br>
+
+        <!-- nav design starts here -->
+
+        <div id="navbar">
+            <nav id="nav_style">
+
+                <a href=""><i class="fa-solid fa-radio"></i> Top news</a> &nbsp
+                <a href=""> <i class="fa-solid fa-handshake-angle"></i> Global Diplomacy</a> &nbsp
+                <a href=""> <i class="fa-solid fa-microchip"></i> Tech Innovations</a>&nbsp
+                <a href=""><i class="fa-brands fa-space-awesome"></i> Sports & Space News</a>&nbsp
+                <a href=""> <i class="fa-solid fa-video"></i> How To Post</a>
+            </nav>
         </div>
     </header>
+
+    <!-- header design ends here -->
+
+    <!-- top news design starts here  -->
+
+    <main>
+        <section id="topnews">
+
+            <h2> <i class="fa-solid fa-fire"></i> Top News </h2>
+
+            <table style="width:100%;">
+                <tr bgcolor="skyblue">
+                    <th> <i class="fa-solid fa-layer-group"></i> Catagory</th>
+                    <th><i class="fa-solid fa-heading"></i> Headline</th>
+                    <th><i class="fa-solid fa-calendar-week"></i> Date</th>
+                </tr>
+
+                <tr>
+                    <td> World</td>
+                    <td> Historic Peace Agreement</td>
+                    <td> 23 November, 2024</td>
+                </tr>
+
+                <tr>
+                    <td> Tehcnology</td>
+                    <td> ChatGPT On Fire</td>
+                    <td> 20 November, 2024</td>
+                </tr>
+
+                <tr>
+                    <td> Business</td>
+                    <td> Crypto News </td>
+                    <td> 22 November, 2024</td>
+                </tr>
+            </table>
+
+        </section>
+    </main>
 </body>
 </html>
