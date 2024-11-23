@@ -7,13 +7,13 @@ Using Technology:
 3. Image
 4. Video
 5. Form
-6. Table
-7. Heding Tag
-8. Pragraph Tag
-9. Semantic Tag
+6. Table (done)
+7. Heding Tag (done)
+8. Pragraph Tag (done)
+9. Semantic Tag (done)
 -----
 ul, li
-table
+table (done)
 
 To Do List:
 1. I will create a news sports web page
